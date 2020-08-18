@@ -1,0 +1,7 @@
+#Questão 01 da Lista01
+
+numero=int(input('Digite aqui o número desejado: '))
+
+soma=(numero/2)*(numero+1)/2
+
+print(soma)
