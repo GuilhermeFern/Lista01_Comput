@@ -1,0 +1,12 @@
+#Questão 03 da Lista 01
+
+numero=input('Digite aqui um número com 4 dígitos: ')
+
+a=int(numero[0])
+b=int(numero[1])
+c=int(numero[2])
+d=int(numero[3])
+
+soma=a+b+c+d
+
+print(soma)
