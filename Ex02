@@ -1,0 +1,13 @@
+#Questão 02 da Lista 01
+
+import math
+
+s1=float(input('Digite o comprimento do seu primeiro lado: '))
+s2=float(input('Digite o comprimento do seu segundo lado: '))
+s3=float(input('Digite o comprimento do seu terceiro lado: '))
+
+s=(s1+s2+s3)/2
+
+A= math.sqrt(s*(s-s1)*(s-s2)*(s-s3))
+
+print(A)
